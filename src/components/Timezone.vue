@@ -78,8 +78,8 @@ export default {
         }
     },
     methods: {
-        async getTimezones () {
-            await fetch('https://api.myjson.com/bins/dukeu')
+        getTimezones () {
+            fetch('https://api.myjson.com/bins/dukeu')
             .then(response => response.json())
             .then(data => {
                 this.timezoneOptions = data
