@@ -1,4 +1,4 @@
-# there-clock
+# Your time zone
 
 ## Project setup
 ```
